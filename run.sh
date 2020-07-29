@@ -4,5 +4,6 @@
 # python3.7 ./src/consumer_complaints.py ./input/complaints.csv ./output/report.csv
 
 cd $(dirname $0)
+mkdir -p bin
 javac -d bin ./src/ConsumerComplaints.java ./src/InvalidFormatException.java
 java -Dfile.encoding=UTF-8 -classpath bin ConsumerComplaints ./input/complaints.csv ./output/report.csv
