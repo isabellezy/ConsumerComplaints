@@ -1,9 +1,9 @@
 # Consumer Complaints
 
-##How to run the code
+## How to run the code
 Make sure the input file is `input/complaints.csv`, and then run `./run.sh` under the repository root, and find the result in `output/report.csv`    
 
-##How to run unit tests
+## How to run unit tests
 Run `./run_unit_test.sh` under the repository root.
 
 
